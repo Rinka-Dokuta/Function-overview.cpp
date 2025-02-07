@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+
+// Function to check if a character is a vowel
+
+bool isVowel(char c) {
+
+    c = tolower(c); // Convert to lowercase for case insensitivity
+
+    return (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
+
+}
+
+
+
+int main() {
+
+    char letter = 'A'; // Example input
+
+
+
+    // Call the function and display the result
+
+    cout << "Is '" << letter << "' a vowel? " << std::boolalpha << isVowel(letter) << endl;
+
+
+
+    return 0;
+
+}
