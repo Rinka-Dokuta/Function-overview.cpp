@@ -1,0 +1,44 @@
+#include <iostream>
+using namespace std;
+
+
+
+
+// Function to calculate the volume of a cylinder
+
+float cylinderVolume(float height, float radius) {
+
+    return radius * radius * height; 
+
+}
+
+
+
+int main() {
+
+    float height, radius;
+
+
+
+    // Example values
+
+    height = 10.0;
+
+    radius = 5.0;
+
+
+
+    // Call the function and display the result
+
+    cout << "The volume of the cylinder is: " << cylinderVolume(height, radius) << endl;
+
+
+
+    return 0;
+
+}
+
+
+
+
+
